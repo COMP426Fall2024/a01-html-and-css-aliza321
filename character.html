@@ -2,24 +2,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medusa</title>
+    <title>Meet the Characters</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>About Medusa</h1>
+        <h1>Mythological Characters</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="character.html">Medusa</a>
-            <a href="event.html">The Curse</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">The Mythological Story</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <ul>
-            <li>Medusa was originally a beautiful maiden.</li>
-            <li>She was cursed by Athena and turned into a Gorgon.</li>
-        </ul>
-        <img src="medusa.jpeg" alt="Medusa">
+        <table>
+            <thead>
+                <tr>
+                    <th>Character</th>
+                    <th>Trait</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Achilles</td>
+                    <td>Strength</td>
+                    <td>Greek Warrior</td>
+                </tr>
+                <tr>
+                    <td>Hector</td>
+                    <td>Courage</td>
+                    <td>Trojan Hero</td>
+                </tr>
+                <tr>
+                    <td>Paris</td>
+                    <td>Charm</td>
+                    <td>Prince of Troy</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="images/characters.jpg" alt="Characters">
+        <label for="choose-character">Choose your favorite character:</label>
+        <select id="choose-character">
+            <option value="achilles">Achilles</option>
+            <option value="hector">Hector</option>
+            <option value="paris">Paris</option>
+        </select>
     </main>
+    <footer>
+        <p>&copy; 2024 Mythology Hub.</p>
+    </footer>
 </body>
 </html>
